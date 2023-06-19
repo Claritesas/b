@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{list-style: none;}
+input,button{
+    border: none;
+    box-shadow: none;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?msubij');
+    src:  url('../fonts/icomoon.eot?msubij#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?msubij') format('truetype'),
+      url('../fonts/icomoon.woff?msubij') format('woff'),
+      url('../fonts/icomoon.svg?msubij#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block78;
+  }
+body{
+    font-family: 'icomoon';
+    background-color: rgb(255, 255, 255);
+}
+header,nav,article,section,aside,footer,main{
+    display: block;
+}
+.w{
+    width: 1224px;
+    margin: 0 auto;
+}
+/* fixed固定定位start */
+.fixed{
+    position: fixed;
+    right: 0;
+    bottom: 65px;
+    width: 90px;
+    height: 455px;
+    background-color:prgb(255, 255, 255);
+}
+.fixed div{
+    width: 90px;
+    height: 91px;
+    text-align: center;
+    border: 1px solid rgba(158, 155, 155, 0.3);
+    border-right: none;
+}
+.fixed p{
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* fixed固定定位start */
+/* header文件开始 */
+.headbc{
+    height: 118px;
+    background-color: rgb(255, 33, 33); 
+}
+.header1{
+    height: 40px;
+    background-color:rgb(51, 51, 51);
+}
+.header1 .menu1 .menu1-h{
+    float: left;
+    margin-top:12px ;
+    padding:0 6px;
+    color: rgb(153, 150, 150);
+}
+.nonesize{
+    float: left;
+    margin-top: 15px;
+    width: 1px;
+    height: 10px;
+    background-color: rgba(153, 150, 150,0.3);
+}
+.header1 .menu1 li a{
+    color: rgb(153, 150, 150);
+    font-size: 12px;
+    font-weight:600;
+}
+.lll{
+    margin-left: 160px!important
+}
+.menu2{
+    float: right;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    font-size: 12px;
+    color: rgb(153, 150, 150);
+    background-color: rgba(153, 150, 150,0.3);
+}
+.menu2 span{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+/* header文件结束 */
+/* nav文件开始 */
+.nav1{
+    height: 100px;
+}
+.nav1{
+    position: relative;
+}
+.nav1 .nav1-block{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.logo a{
+    float: left;
+    margin: 20px 0 20px 0;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url();
+    font-size: 0;
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+.nav1-a{
+    float: left;
+    margin-top: 40px;
+    margin-left: 180px;
+}
+.nav1-a a:hover{
+    color: rgb(255, 106, 0);
+}
+.nav1-a li{
+    float: left;
+    margin: 0 5px;
+}
+.nav1-a li a{
+    color: rgb(49, 48, 48);
+    font-weight:400;
+    padding: 40px 0 60px 0;
+}
+input{
+    float: left;
+    width: 250px;
+    height: 48px;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgb(153, 150, 150);
+    border: 1px solid rgb(153, 150, 150);
+}
+button{
+    font-family: 'icomoon';
+    float: left;
+    width: 55px;
+    height: 48px;
+    font-size: 18px;
+}
+.search{
+     height: 48px;
+     margin-top: 25px;
+     margin-right: 0;
+     float: right;
+}
+button:hover{
+    background-color: rgb(255, 103, 0);
+}
+/* 下拉菜单开始 */
+.nav1 h6{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: normal;
+}
+.nav1 h6 em{
+    color: rgb(255, 106, 0);
+}
+.nav1 .nav1-a img{
+    display: block;
+    width: 180px;
+    height: 120px;
+}
+.nav1-a ul li span{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    display: none;
+    height: 300px;
+    border-top:1px solid rgb(224, 224, 224) ;
+    border-bottom:1px solid rgb(224, 224, 224) ;
+    background-color: rgb(255, 255, 255);
+}
+.a1-1,.a1-2,.a1-3,.a1-4,.a1-5{
+    position: absolute;
+    float: left;
+    margin-top: 60px;
+    border-right: 1px solid rgb(224, 224, 224);
+    box-sizing: content-box!important 
+}
+.a1-1{
+    left: 315px;
+}
+.a1-2{
+    left: 500px;
+}
+.a1-3{
+    left: 685px;
+}
+.a1-4{
+    left: 870px;
+}
+.a1-5{
+    left: 1055px;
+}
+.a1:hover .span1{
+    box-sizing: content-box;
+    display: block;
+    margin-top: 60px;
+    padding-left: 1000px!important
+}
+
+.box{
+    padding-top: 18px;
+    width: 235px;
+    height: 460px;
+    background-color: rgb(165, 163, 163);
+}
+.box li{
+    position: relative;
+    padding-left: 28px;
+
+    height: 40px;
+    line-height: 40px;
+}
+.box li:hover{
+    background-color: rgb(255, 103, 0);
+}
+.box li a{
+    color: rgb(255, 255, 255);
+    font-size: 14px;  
+}
+.box li a:last-child::after{
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 3px;
+    font-size: 16px;
+}
+
+.box,.content1p{
+    float: left;
+}
+
+h3 a{
+    font-size: 0;
+}
+h3 a img{
+    width: 989px;
+    height: 460px;
+}
+.leftbox{
+    float: left;
+    margin: 12px 0 0 325px;
+    width: 235px;
+    height: 166px;
+    text-align-last: center;
+    background-color: rgb(95, 87, 80);
+   font-size: 14px;
+}
+/* .leftbox a{
+    color:rgb(204, 201, 199);
+}
+.leftbox img{
+    height: 22px;
+    width: 22px;
+}
+.leftbox li{
+    
+    float: left;
+    font-size: 12px;
+}
+.leftbox-1{
+    width: 235px;
+    height: 83px;
+}
+.leftbox-2{
+    width: 235px;
+    height: 83px;
+}
+.leftbox-1 li{
+    padding: 20px 15.6px;
+    text-align: center;
+    border-right: 0.5px solid rgb(204, 201, 199) ;
+    border-bottom: 0.5px solid rgb(204, 201, 199) ;
+}
+.leftbox-2 li{
+
+    padding: 20px 18px;
+    text-align: center;
+    border-right: 0.5px solid rgb(204, 201, 199) ;
+
+} */
+.leftbox1  li{
+    float: left;
+    padding: 20px 11px;
+
+}
+.leftbox img{
+width: 22px;
+    height: 22px;
+}
+.leftbox1  li{
+border-right: 0.5px solid rgb(204, 201, 199);
+border-bottom: 0.5px solid rgb(204, 201, 199);
+}
+.leftbox1 li:last-child{
+    padding-right: 16px;
+    border-right: none;
+}
+.leftbox2 li{
+    float: left;
+    padding: 20px 13px;
+}
